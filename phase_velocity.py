@@ -42,7 +42,6 @@
 
 # AUTHORS:
 # Arthur Van Lerberghe (<avanlerberghe1@sheffield.ac.uk>) & Andrew D. Barr (<a.barr@sheffield.ac.uk>).
-<email@email.com>
 # ----------------------------------------------------------------------------------------------------------
 # Imported modules:
 import matplotlib.pyplot as plt
