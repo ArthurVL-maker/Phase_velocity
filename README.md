@@ -1,4 +1,4 @@
-## Phase_velocity, an open-source python algorithm for calculating frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars
+## Phase_velocity.py, an algorithm for calculating frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars
 
 #### DESCRIPTION: 
 The correlation between normalised frequency and phase velocity, m1 and m2, can be utilised to account for first-mode dispersion effect in pressure bar measurements using *Process_SHPB*, open-source python algorithm (see Van Lerberghe and Barr (2023)).
