@@ -1,18 +1,18 @@
-## Phase_velocity.py, an algorithm for calculating frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars
+## Phase_velocity.py, an open-source PYTHON algorithm for calculating frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars
 
 #### DESCRIPTION: 
-The correlation between normalised frequency and phase velocity, m1 and m2, can be utilised to account for first-mode dispersion effect in pressure bar measurements using *Process_SHPB*, open-source python algorithm (see Van Lerberghe and Barr (2023)).
+The correlation between normalised frequency and phase velocity, m1 and m2, can be utilised to account for first-mode dispersion effect in pressure bar measurements using *process_SHPB.py*, open-source python algorithm (see Van Lerberghe and Barr (2023)).
 
 The open-source python algorithm Phase_velocity, finds the first root of Bancroft’s (1941) equation using the bisection method, for a defined Poisson’s ratio, and over a defined range of normalised wavelength (d/L). The result is the normalised wave velocity, cp/c0, which corresponds to the first mode of propagation for longitudinal waves in an elastic cylindrical bar. Normalised wavelengths are also converted to normalised frequencies, fa/c0.
 
 Normalised phase velocities are then used to calculate Tyas and Wilson’s (2001) factors m1 and m2, which account for wavelength dependent radial fluctuations in strain and Young’s modulus respectively.
 
-The results m1, m2, norm_freqs and v_ratios are saved in 4 separate pickle files, in a folder titled dispersion-factors, for the corresponding Poisson’s ratio selected.
+The results m1, m2, norm_freqs and v_ratios are saved in 4 separate pickle files, in a folder titled *dispersion-factors*, for the corresponding Poisson’s ratio selected.
 
-Both *Process_SHPB* and *Phase_velocity* open-source python algorithms, are inspired by MATLAB scripts created by Barr (2016 & 2023), see below.
+Both *process_SHPB.py* and *phase_velocity.py*, open-source python algorithms, are inspired by MATLAB scripts created by Barr (2016 & 2023), see below.
 
 #### FILES INCLUDED:
--	*phase_velocity.py*: Includes the main python function phase_velocity.py, with the documentation on the use of the function included in the file as comments.
+-	*phase_velocity.py*: Includes the main python function *phase_velocity.py*, with the documentation on the use of the function included in the file as comments.
 -	*phase_velocity.pdf*: An image showing the phase velocities, the factor m1 and normalised factor m2/E.
 
 #### REFERENCES:
@@ -27,7 +27,7 @@ radial variation of elastic waves in cylindrical bars. University of Sheffield.\
 Software ORDA link: [https://doi.org/10.15131/shef.data.21982604.v1]
 
 #### PYTHON SOFTWARE:
-- Van Lerberghe, A., Barr, A. D. (2023) *Process_SHPB*, an open-source PYTHON algorithm for stress wave dispersion correction in split-Hopkinson pressure bar experiments. University of Sheffield.\
+- Van Lerberghe, A., Barr, A. D. (2023) *Process_SHPB.py*, an open-source PYTHON algorithm for stress wave dispersion correction in split-Hopkinson pressure bar experiments. University of Sheffield.\
 Software ORDA link: [https://doi.org/10.15131/shef.data.21973325] \
 Software GitHub link: [https://github.com/ArthurVL-maker/Process_SHPB.git]
 
