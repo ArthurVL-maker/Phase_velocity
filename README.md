@@ -29,7 +29,7 @@ Software ORDA link: [https://doi.org/10.15131/shef.data.21982604.v1]
 #### PYTHON SOFTWARE:
 - Van Lerberghe, A., Barr, A. D. (2023) Process_SHPB, an open-source python algorithm for stress wave dispersion correction in split-Hopkinson pressure bar experiments. University of Sheffield.
 Software ORDA link: [https://doi.org/10.15131/shef.data.21973325]
-Software GitHub link: [ADD GitHub Link]
+Software GitHub link: [https://github.com/ArthurVL-maker/Process_SHPB.git]
 
 #### AUTHORS:
 Arthur Van Lerberghe <avanlerberghe1@sheffield.ac.uk> & Andrew D. Barr <a.barr@sheffield.ac.uk>.
