@@ -29,7 +29,6 @@
 # - Barr, A. D. (2016) dispersion.m - A MATLAB script for phase angle and amplitude correction of pressure bar signals.
 # University of Sheffield.
 # Software ORDA link: (https://doi.org/10.15131/shef.data.3996876.v1)
-	[Google](https://www.google.com) - _Google | Youtube | Gmail | Maps | PlayStore | GoogleDrive_
 
 # - Barr, A. D. (2023) phasevelocity.m - A MATLAB script to calculate the frequency-dependent phase velocity and
 # radial variation of elastic waves in cylindrical bars. University of Sheffield.
@@ -43,6 +42,7 @@
 
 # AUTHORS:
 # Arthur Van Lerberghe (<avanlerberghe1@sheffield.ac.uk>) & Andrew D. Barr (<a.barr@sheffield.ac.uk>).
+<email@email.com>
 # ----------------------------------------------------------------------------------------------------------
 # Imported modules:
 import matplotlib.pyplot as plt
