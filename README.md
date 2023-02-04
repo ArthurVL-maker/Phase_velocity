@@ -12,8 +12,8 @@ The results m1, m2, norm_freqs and v_ratios are saved in 4 separate pickle files
 Both *Process_SHPB* and *Phase_velocity* open-source python algorithms, are inspired by MATLAB scripts created by Barr (2016 & 2023), see below
 
 #### FILES INCLUDED:
--	phase_velocity.py: Includes the main python function phase_velocity.py, with the documentation on the use of the function included in the file as comments.
--	phase_velocity.pdf: An image showing the phase velocities, the factor m1 and normalised factor m2/E.
+-	*phase_velocity.py*: Includes the main python function phase_velocity.py, with the documentation on the use of the function included in the file as comments.
+-	*phase_velocity.pdf*: An image showing the phase velocities, the factor m1 and normalised factor m2/E.
 
 #### REFERENCES:
 -	Bancroft, D. (1941) The Velocity of Longitudinal Waves in Cylindrical Bars. Physical Review, 59, 588-593.
