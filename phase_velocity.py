@@ -30,7 +30,7 @@
 # University of Sheffield.
 # Software ORDA 
 [link:](https://doi.org/10.15131/shef.data.3996876.v1)
-[I'm an inline-style link](https://www.google.com)
+	[Google](https://www.google.com)
  
 # - Barr, A. D. (2023) phasevelocity.m - A MATLAB script to calculate the frequency-dependent phase velocity and
 # radial variation of elastic waves in cylindrical bars. University of Sheffield.
