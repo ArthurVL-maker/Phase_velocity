@@ -5,13 +5,14 @@
 # which corresponds to the first mode of propagation for longitudinal waves in an elastic cylindrical bar.
 # Normalised wavelengths are also converted to normalised frequency, fa/c_0.
 
-# Normalised phase velocities are then used to calculate Tyas and Wilson's factors m1 and m2,
+# Normalised phase velocities are then used to calculate Tyas and Wilson's (2001) factors m1 and m2,
 # which account for wavelength-dependent radial variations in strain and Young's modulus, respectively.
 
 # The relationships between normalised frequency and phase velocity, m1 and m2 can be used to account
 # for first-mode dispersion effects in pressure bar measurements, and are saved in the file format used by the
-# open-source python algorithm 'Process_SHPB', referenced below (see Van Lerberghe and Barr (2023)).
-# Both 'Process_SHPB' and 'Phase_velocity' algorithms, are inspired by MATLAB scripts created by Barr (2016 & 2023).
+# open-source python algorithm 'process_SHPB.py', referenced below (see Van Lerberghe and Barr (2023)).
+# Both 'process_SHPB.py' and 'phase_velocity.py' open-source Python algorithms, are inspired by Matlab scripts 
+# created by Barr (2016 & 2023), see below.
 
 # INPUTS:
 # - nu: Poisson's ratio of bar material used for split-Hopkinson pressure bar tests
@@ -26,19 +27,18 @@
 # International Journal of Impact Engineering, 25, 87-101.
 
 # MATLAB SOFTWARE:
-# - Barr, A. D. (2016) dispersion.m - A MATLAB script for phase angle and amplitude correction of pressure bar signals.
+# - Barr, A. D. (2016) dispersion.m - A Matlab script for phase angle and amplitude correction of pressure bar signals.
 # University of Sheffield.
 # Software ORDA link: (https://doi.org/10.15131/shef.data.3996876.v1)
-
-# - Barr, A. D. (2023) phasevelocity.m - A MATLAB script to calculate the frequency-dependent phase velocity and
+# - Barr, A. D. (2023) phasevelocity.m - A Matlab script to calculate the frequency-dependent phase velocity and
 # radial variation of elastic waves in cylindrical bars. University of Sheffield.
 # Software ORDA [link](https://doi.org/10.15131/shef.data.21982604.v1)
 
 # PYTHON SOFTWARE:
-# - Van Lerberghe, A., Barr, A. D. (2023) Process_SHPB, an open-source python algorithm for stress wave dispersion
+# - Van Lerberghe, A., Barr, A. D. (2023) process_SHPB.py - A Python algorithm for stress wave dispersion
 # correction in split-Hopkinson pressure bar experiments. University of Sheffield.
 # Software ORDA link: (https://doi.org/10.15131/shef.data.21973325)
-# Software GitHub link: [ADD GitHub Link]
+# Software GitHub link: [https://github.com/ArthurVL-maker/Process_SHPB.git]
 
 # AUTHORS:
 # Arthur Van Lerberghe (<avanlerberghe1@sheffield.ac.uk>) & Andrew D. Barr (<a.barr@sheffield.ac.uk>).
