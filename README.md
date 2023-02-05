@@ -9,7 +9,7 @@ Normalised phase velocities are then used to calculate Tyas and Wilson’s (2001
 
 The results m1, m2, norm_freqs and v_ratios are saved in 4 separate pickle files, in a folder titled *dispersion-factors*, for the corresponding Poisson’s ratio selected.
 
-Both *process_SHPB.py* and *phase_velocity.py*, open-source Python algorithms, are inspired by Matlab scripts created by Barr (2016 & 2023), see below.
+Both *process_SHPB.py* and *phase_velocity.py*, open-source Python algorithms are available on GitHub and ORDA. They are inspired by Matlab scripts created by Barr (2016 & 2023), see below. 
 
 #### FILES INCLUDED:
 -	*phase_velocity.py*: Includes the main python function *phase_velocity.py*, with the documentation on the use of the function included in the file as comments.
@@ -30,6 +30,8 @@ Software ORDA link: [https://doi.org/10.15131/shef.data.21982604.v1]
 - Van Lerberghe, A., Barr, A. D. (2023) *process_SHPB.py* - a Python algorithm for stress wave dispersion correction in split-Hopkinson pressure bar experiments. University of Sheffield.\
 Software ORDA link: [https://doi.org/10.15131/shef.data.21973325] \
 Software GitHub link: [https://github.com/ArthurVL-maker/Process_SHPB.git]
+- Van Lerberghe, A., Barr, A. D. (2023) *phase_velocity.py* - A Python algorithm for calculating frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars. University of Sheffield.\
+Software ORDA link: [https://doi.org/10.15131/shef.data.22010999] \
 
 #### AUTHORS:
 Arthur Van Lerberghe <avanlerberghe1@sheffield.ac.uk> & Andrew D. Barr <a.barr@sheffield.ac.uk>.
