@@ -11,8 +11,8 @@
 # The relationships between normalised frequency and phase velocity, m1 and m2 can be used to account
 # for first-mode dispersion effects in pressure bar measurements, and are saved in the file format used by the
 # open-source python algorithm 'process_SHPB.py', referenced below (see Van Lerberghe and Barr (2023)).
-# Both 'process_SHPB.py' and 'phase_velocity.py' open-source Python algorithms are available on GitHub and ORDA.
-# They are inspired by Matlab scripts created by Barr (2016 & 2023), see below.
+# Both 'process_SHPB.py' and 'phase_velocity.py' open-source Python algorithms are available on GitHub and ORDA, 
+# with their respective links attached below. They are inspired by Matlab scripts created by Barr (2016 & 2023), see below.
 
 # INPUTS:
 # - nu: Poisson's ratio of bar material used for split-Hopkinson pressure bar tests
