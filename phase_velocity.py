@@ -39,7 +39,7 @@
 # correction in split-Hopkinson pressure bar experiments. University of Sheffield.
 # Software ORDA link: (https://doi.org/10.15131/shef.data.21973325)
 # Software GitHub link: [https://github.com/ArthurVL-maker/Process_SHPB.git]
-# - Van Lerberghe, A., Barr, A. D. (2023) *phase_velocity.py* - A Python algorithm for calculating 
+# - Van Lerberghe, A., Barr, A. D. (2023) phase_velocity.py - A Python algorithm for calculating 
 # frequency-dependent phase velocity and radial variation of elastic waves in cylindrical bars. University of Sheffield.
 # Software ORDA link: [https://doi.org/10.15131/shef.data.22010999]
 
