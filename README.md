@@ -9,7 +9,7 @@ Normalised phase velocities are then used to calculate Tyas and Wilson’s (2001
 
 The results m1, m2, norm_freqs and v_ratios are saved in 4 separate pickle files, in a folder titled *dispersion-factors*, for the corresponding Poisson’s ratio selected.
 
-Both *process_SHPB.py* and *phase_velocity.py*, open-source Python algorithms are available on GitHub and ORDA. They are inspired by Matlab scripts created by Barr (2016 & 2023), see below. 
+Both *process_SHPB.py* and *phase_velocity.py*, open-source Python algorithms are available on GitHub and ORDA, with their respective links attached below. They are inspired by Matlab scripts created by Barr (2016 & 2023), see below. 
 
 #### FILES INCLUDED:
 -	*phase_velocity.py*: Includes the main python function *phase_velocity.py*, with the documentation on the use of the function included in the file as comments.
