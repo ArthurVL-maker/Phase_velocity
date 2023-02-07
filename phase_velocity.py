@@ -108,7 +108,7 @@ for i in range(1, l_ratios.shape[0]):
 norm_freqs = (l_ratios / 2) * v_ratios  # Normalised frequencies, f*a/c0.
 
 # ----------------------------------------------------------------
-# CALCULATE FACTORS m1 AND m1:  (see Tyas and Watson, 2001)
+# CALCULATE FACTORS m1 AND m2:  (see Tyas and Watson, 2001)
 # ----------------------------------------------------------------
 S = (1 - 2 * nu) / (1 - nu)
 Z = (1 + nu) * (v_ratios ** 2)
